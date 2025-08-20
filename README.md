@@ -1,12 +1,11 @@
 # Iris Flower Classification
 
-A simple machine learning classification project that predicts the species of an iris flower based on four features: **sepal length, sepal width, petal length, and petal width**.
+A simple machine learning classification project that predicts the species of an iris flower.
 
 ---
 
 ## 📊 Dataset
 - **Source**: https://www.kaggle.com/datasets/arshid/iris-flower-dataset
-- **File**: `IRIS.csv` is included in this repository.
 
 ---
 
