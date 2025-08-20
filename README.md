@@ -32,8 +32,6 @@ Steps covered in `iris.ipynb`:
 
 ## 🏆 Results
 - **Best Model**: Logistic Regression
-- **Accuracy (test set)**: `0.98`
-- **Confusion Matrix**:
-  ![Confusion Matrix](reports/confusion_matrix.png)
+- **Accuracy (test set)**: 0.98
 
 ---
