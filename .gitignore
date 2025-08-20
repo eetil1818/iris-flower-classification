@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data / models
+data/
+models/
+*.pkl
+*.joblib
+*.h5
