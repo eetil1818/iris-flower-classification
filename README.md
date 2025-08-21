@@ -19,19 +19,20 @@ Steps covered in `iris.ipynb`:
    - Applied feature scaling: StandardScaler and RobustScaler
 
 3. **Modeling**
-   - Compared Logistic Regression and Decision Tree Classifier
+   - Compared 5 models
    - Cross-validation & hyperparameter tuning with GridSearchCV
 
 4. **Evaluation**
    - Cross validation to get accuracy score
    - Learning Curve
-   - Confusion Matrix
    - Classification Report
+   - Confusion Matrix
+
 
 ---
 
 ## 🏆 Results
 - **Best Model**: Logistic Regression
-- **Accuracy (test set)**: 0.98
+- **Accuracy (test set)**: 0.96
 
 ---
