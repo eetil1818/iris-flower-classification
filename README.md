@@ -1,38 +1,31 @@
 # Iris Flower Classification
 
-A simple machine learning classification project that predicts the species of an iris flower.
+A simple supervised machine learning classification project that predicts the species of an iris flower based on petal and sepal measurements.
 
 ---
 
 ## 📊 Dataset
-- **Source**: https://www.kaggle.com/datasets/arshid/iris-flower-dataset
+- Source: https://www.kaggle.com/datasets/arshid/iris-flower-dataset
+- Features: Petal length/width, Sepal length/width
+- Target: Species (Setosa, Versicolor, Virginica)
 
 ---
 
-## ⚙️ Methods
-Steps covered in `iris.ipynb`:
-1. **Exploratory Data Analysis (EDA)**
-   - Checked duplicates, missing values, class distribution
-   - Plotted feature distributions & correlations
-
-2. **Preprocessing**
-   - Applied feature scaling: StandardScaler and RobustScaler
-
-3. **Modeling**
-   - Compared 5 models
-   - Cross-validation & hyperparameter tuning with GridSearchCV
-
-4. **Evaluation**
-   - Cross validation to get accuracy score
-   - Learning Curve
-   - Classification Report
-   - Confusion Matrix
-
+## ⚙️ Modelling
+- Cross-validated 5 models:
+      | Model                   | CV Score | Training Time (s) |
+      |--------------------------|----------|------------------|
+      | Logistic Regression      | 0.932    | 1.09             |
+      | Decision Tree Classifier | 0.961    | 0.67             |
+      | Random Forest Classifier | 0.961    | 0.64             |
+      | SGD Classifier           | 0.932    | 0.02             |
+      | Support Vector Classifier| 0.922    | 0.01             |
+- Selected Logistic Regression for hyperparameter tuning (grid search) for its balanced performance and better generalization compared to other models.
 
 ---
 
 ## 🏆 Results
-- **Best Model**: Logistic Regression
+- **Model**: Logistic Regression
 - **Accuracy (test set)**: 0.96
 
 ---
